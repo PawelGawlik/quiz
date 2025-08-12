@@ -68,7 +68,7 @@ button {
     font-size: larger;
 }
 
-.button + p, .hidden + button {
+.button ~ p, .hidden + button {
     width: 400px;
     font-size: 40px;
     margin: 20px;
